@@ -35,6 +35,8 @@ nav ul a {
     list-style: none;
     color: var(--text-blue);
     background-color: var(--text-bg-color);
+    font-family: heyAugust, "Brush Script MT", "Lucida Handwriting";
+    text-transform: uppercase;
     text-decoration: none;
     display: block;
     padding: 20px;
@@ -133,15 +135,72 @@ p {
 }
 
 .star {
-    height: 250px;
-    width: 250px;
-    background-color: rgba(255, 255, 255, 0.5);
+    height: 25px;
+    width: 25px;
+    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 50%;
     position: absolute;
     filter: blur(5px)
 }
 
-.star1 {
+.star.star1 {
+    top: -100vh;
+    left: 10vw;
+}
+
+.star.star2 {
+    height: 30px;
+    width: 30px;
+    top: -80vh;
+    left: 70vw;
+}
+
+.star.star3 {
     top: -50vh;
     left: 20vw;
+}
+
+.star.star4 {
+    height: 15px;
+    width: 15px;
+    top: -40vh;
+    left: 15vw;
+}
+
+.star.star5 {
+    height: 40px;
+    width: 40px;
+    top: -25vh;
+    left: 90vw;
+}
+
+.star.star6 {
+    top: -5vh;
+    left: 10vw;
+}
+
+.star.star7 {
+    height: 20px;
+    width: 20px;
+    top: -0vh;
+    left: 25vw;
+}
+
+.star.star8 {
+    height: 15px;
+    width: 15px;
+    top: 10vh;
+    left: 85vw;
+}
+
+.star.star9 {
+    top: 20vh;
+    left: 70vw;
+}
+
+.star.star10 {
+    height: 30px;
+    width: 30px;
+    top: 27vh;
+    left: 82vw;
 }
