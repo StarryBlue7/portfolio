@@ -28,7 +28,7 @@ nav ul {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    gap: 30px;
+    gap: 10px 30px;
 }
 
 nav ul a {
@@ -38,7 +38,7 @@ nav ul a {
     text-decoration: none;
     display: block;
     padding: 20px;
-    border-radius: 0 0 20px 20px;
+    /* border-radius: 0 0 20px 20px; */
 }
 
 .flex-parallax {
@@ -60,7 +60,7 @@ nav ul a {
     top: 0;
     left: 19%;
     width: 100vw;
-    transform: translateZ(-3px) translateY(100px) scale(1.375);
+    transform: translateZ(-3px) translateX(-3px) translateY(100px) scale(1.375);
     z-index: -1;
 }
 
@@ -74,13 +74,16 @@ nav ul a {
     height: 3500px;
 }
 
-.foreground {
-    margin-bottom: 50px;
+.midground {
     width: 100%;
     transform-origin: 0;
-    transform: translateZ(0px) scale(1);
+    transform: translateZ(1px) scale(.875);
     display: flex;
     justify-content: center;
+}
+
+.content {
+    padding-top: 100px;
 }
 
 .column {
@@ -98,7 +101,7 @@ h1 {
     font-size: 500%;
     letter-spacing: 3px;
     text-align: center;
-    margin-bottom: 35vh;
+    margin-bottom: 30vh;
     /* background-color: rgba(0, 0, 0, 0.3);
     padding: 30px; */
 }
@@ -120,4 +123,25 @@ p {
     p {
         font-size: 70%;
     }
+}
+
+.foreground {
+    width: 100%;
+    transform-origin: 0;
+    transform: translateZ(3px) scale(.625);
+    display: flex;
+}
+
+.star {
+    height: 250px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(5px)
+}
+
+.star1 {
+    top: -50vh;
+    left: 20vw;
 }

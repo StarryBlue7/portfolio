@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
-    <script src="./assets/javascript.js"></script>
+    <script type="text/javascript" src="./assets/javascript.js"></script>
     <title>Vince Lee | Full Stack Developer</title>
 </head>
 
@@ -25,18 +25,22 @@
         
     <main class="flex-parallax">
 
-        <div class="background">
+        <div aria-hidden="true" class="background">
             <div class="background-box">
                 <img class="background-image" src="assets/images/space-bg.jpg" />
             </div>
         </div>
 
-        <section class="foreground column">
-            <img class="profile-img" src="assets/images/profile.png" />
+        <section class="midground column fade fadeIn">
+            <img alt="Photo of Vince Lee" class="profile-img" src="assets/images/profile.png" />
             <h1>Vince Lee</h1> 
         </section>
+
+        <section class="foreground">
+            <span class="star star1"></span>
+        </section>
         
-        <section id="about" class="foreground column">
+        <section id="about" class="midground column content fade fadeOut">
             <p>Text Text Text Text Text Text Text Text </p>
             <p>Text Text Text Text Text Text Text Text </p>
             <p>Text Text Text Text Text Text Text Text </p>
@@ -45,7 +49,7 @@
             <p>Text Text Text Text Text Text Text Text </p>
         </section>
         
-        <section id="portfolio" class="foreground column">
+        <section id="portfolio" class="midground column content">
             <p>Text Text Text Text Text Text Text Text </p>
             <p>Text Text Text Text Text Text Text Text </p>
             <p>Text Text Text Text Text Text Text Text </p>
@@ -54,7 +58,7 @@
             <p>Text Text Text Text Text Text Text Text </p>
         </section>
         
-        <section id="resume" class="foreground column">
+        <section id="resume" class="midground column content">
             <p>Text Text Text Text Text Text Text Text </p>
             <p>Text Text Text Text Text Text Text Text </p>
             <p>Text Text Text Text Text Text Text Text </p>
@@ -63,7 +67,7 @@
             <p>Text Text Text Text Text Text Text Text </p>
         </section>
         
-        <section id="contact" class="foreground column">
+        <section id="contact" class="midground column content">
             <p>Text Text Text Text Text Text Text Text </p>
             <p>Text Text Text Text Text Text Text Text </p>
             <p>Text Text Text Text Text Text Text Text </p>
@@ -71,7 +75,7 @@
             <p>Text Text Text Text Text Text Text Text </p>
             <p>Text Text Text Text Text Text Text Text </p>
         </section>
-        
+
     </main>
     
     
