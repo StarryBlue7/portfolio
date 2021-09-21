@@ -266,6 +266,16 @@ footer {
 #star8 {height: 15px; width: 15px; top: 10vh; left: 85vw;}
 #star9 {top: 20vh; left: 70vw;}
 #star10 {height: 30px; width: 30px; top: 27vh; left: 82vw;}
+#star11 {top: 25vh; left: 10vw;}
+#star12 {height: 30px; width: 30px; top: 45vh; left: 70vw;}
+#star13 {top: 75vh; left: 20vw;}
+#star14 {height: 15px; width: 15px; top: 85vh; left: 15vw;}
+#star15 {height: 40px; width: 40px; top: 100vh; left: 90vw;}
+#star16 {top: 120vh; left: 10vw;} 
+#star17 {height: 20px; width: 20px; top: 125vh; left: 25vw;}
+#star18 {height: 15px; width: 15px; top: 135vh; left: 85vw;}
+#star19 {top: 145vh; left: 70vw;}
+#star20 {height: 30px; width: 30px; top: 152vh; left: 82vw;}
 
 /* Content scaling for narrower screens */
 @media screen and (max-width: 1600px) {    
