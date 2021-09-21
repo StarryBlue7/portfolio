@@ -10,7 +10,11 @@
     src: url(HeyAugust.ttf);
 }
 
-html, body {
+html {
+    scroll-behavior: smooth;
+}
+
+body {
     font-family: Garamond, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
     color: white;
@@ -35,6 +39,7 @@ nav ul {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 nav ul a {
@@ -55,6 +60,7 @@ nav ul a {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
+    scroll-behavior: smooth;
     perspective: 8px;
     perspective-origin: 0%;
     display: flex;
@@ -79,7 +85,7 @@ nav ul a {
 
 .background-box {
     overflow: hidden;
-    height: 4000px;
+    height: 4200px;
 }
 
 .midground {
@@ -180,11 +186,34 @@ summary:last-child {
     flex: 1 1 100%;
 }
 
+#resume p {
+    line-height: 250%;
+    text-align: center;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 300px;
+}
+
+.social-link {
+    text-align: center;
+}
+
+.social-icon {
+    height: 100px;
+    width: 100px;
+    filter: invert(1);
+    padding: 20px 20px 0 20px;
+}
+
 footer {
     text-align: center;
     font-size: 80%;
-    width: 100%;
     bottom: 0;
+    margin: 50px;
+    align-self: center;
 }
 
 .foreground {
