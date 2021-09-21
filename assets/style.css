@@ -1,10 +1,13 @@
+/* Setting repeated use variables */
 :root {
     --content-bg-color: rgba(0, 0, 0, 0.3);
     --color-text: rgb(169, 235, 255);
+    --main-text-color: white;
     --content-padding: 20px;
     --content-width: 30vw;
 }
 
+/* Custom font for headers */
 @font-face {
     font-family: heyAugust;
     src: url(HeyAugust.ttf);
@@ -17,10 +20,11 @@ html {
 body {
     font-family: Garamond, Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
-    color: white;
+    color: var(--main-text-color);
     background-color: rgb(0, 0, 4);
 }
 
+/* Nav bar header */
 header {
     width: 100vw;
     position: absolute;
@@ -39,7 +43,7 @@ nav ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: var(--main-text-color);
 }
 
 nav ul a {
@@ -54,6 +58,7 @@ nav ul a {
     padding: 20px;
 }
 
+/* Parallax scrolling main page section */
 .flex-parallax {
     position: relative;
     width: 100vw;
@@ -69,6 +74,7 @@ nav ul a {
     justify-content: flex-start;
 }
 
+/* Background content in distance */
 .background {
     position: absolute;
     top: 0;
@@ -88,6 +94,7 @@ nav ul a {
     height: 4200px;
 }
 
+/* Midground content */
 .midground {
     width: 100%;
     transform-origin: 0;
@@ -113,6 +120,7 @@ nav ul a {
     gap: 5px;
 }
 
+/* Profile image section */
 #profile {
     margin-bottom: 10vh;
 }
@@ -122,6 +130,7 @@ nav ul a {
     width: 400px;
 }
 
+/* Name */
 h1 {
     font-family: heyAugust, "Brush Script MT", "Lucida Handwriting";
     font-size: 500%;
@@ -129,6 +138,7 @@ h1 {
     text-align: center;
 }
 
+/* Content card headers */
 h2 {
     font-family: heyAugust, "Brush Script MT", "Lucida Handwriting";
     font-size: 250%;
@@ -138,18 +148,21 @@ h2 {
     z-index: 1;
 }
 
+/* Main header subtitle */
 h3 {
     text-align: center;
     margin-top: -10px;
 }
 
+/* Portfolio item card headers */
 h4 {
     padding: 10px 0 0 5px;
     text-decoration: none;
     font-weight: bold;
-    color: white;
+    color: var(--main-text-color);
 }
 
+/* Main content text */
 p {
     background-color: var(--content-bg-color);
     padding: var(--content-padding);
@@ -158,12 +171,14 @@ p {
     text-align: justify;
 }
 
+/* Main content cards */
 .projects {
     background: var(--content-bg-color);
     padding: var(--content-padding);
     width: var(--content-width);
 }
 
+/* Portfolio item cards */
 summary {
     overflow:hidden;
     height: 35vh;
@@ -173,30 +188,27 @@ summary {
 .screenshot {
     width: 100%;
     object-fit: cover;
-
 }
 
-#short-img {
-    width: unset;
-    height: 100%;
-}
-
+/* Expand latest item to double width */
 summary:last-child {
-    /* width: 100%; */
     flex: 1 1 100%;
 }
 
+/* Resume section text */
 #resume p {
     line-height: 250%;
     text-align: center;
 }
 
+/* Contact section */
 #contact-box {
     display: flex;
     justify-content: center;
     margin-bottom: 400px;
 }
 
+/* Contact links cards */
 .social-link {
     text-align: center;
 }
@@ -208,6 +220,7 @@ summary:last-child {
     padding: 20px 20px 0 20px;
 }
 
+/* Footer */
 footer {
     text-align: center;
     font-size: 80%;
@@ -215,6 +228,7 @@ footer {
     align-self: center;
 }
 
+/* Foreground decoration elements */
 .foreground {
     width: 100%;
     transform-origin: 0;
@@ -297,10 +311,8 @@ footer {
     left: 82vw;
 }
 
+/* Content scaling for narrower screens */
 @media screen and (max-width: 1600px) {    
-    /* p {
-        width: 50vw;
-    } */
     :root {
         --content-width: 50vw;
     }
