@@ -1,12 +1,12 @@
 # Professional Portfolio Page
 
-This is my professional portfolio website. It showcases my portfolio of coding and design work, while also showcasing my skills for HTML and CSS styling, and graphic design sensibilities.
+This is my professional portfolio website. It displays my portfolio of coding and design work, while also showcasing my skills for HTML and CSS styling, and graphic design sensibilities.
 
 ![Deployed page preview](./assets/images/portfolio-site.gif)
 
 ### Dynamic Scaling
 
-This page scales content and the content proportion of the screen to ideally utilize the space of various screen sizes. Additionally, the navbar at the top will reorganize itself into an even-rowed grid when the viewport width is narrow enough that the rows must wrap.
+This page scales content and the content proportion of the screen to ideally utilize the space of various screen sizes. Additionally, the navigation bar at the top will reorganize itself into an even-rowed grid when the viewport width is narrow enough that the row must wrap.
 
 ![Page scaling demonstration](./assets/images/scaling-demo.gif)
 
