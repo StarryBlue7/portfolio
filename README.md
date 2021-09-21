@@ -1,6 +1,6 @@
 # Professional Portfolio Page
 
-This is my professional portfolio website. It displays my portfolio of coding and design work, while also showcasing my skills for HTML and CSS styling, and graphic design sensibilities.
+This is my professional portfolio website. It displays my portfolio of coding and design work, while also showcasing my skills for HTML and CSS styling, and graphic design sensibilities. There are also links to my CV and various contact methods.
 
 ![Deployed page preview](./assets/images/portfolio-site.gif)
 
