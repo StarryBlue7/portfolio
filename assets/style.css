@@ -24,6 +24,16 @@ body {
     background-color: rgb(0, 0, 4);
 }
 
+/* Link behavior */
+a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+a:hover {
+    color: var(--color-text);
+}
+
 /* Nav bar header */
 header {
     width: 100vw;
@@ -41,16 +51,10 @@ nav ul {
     gap: 10px 30px;
 }
 
-a {
-    text-decoration: none;
-    color: var(--main-text-color);
-}
-
 nav ul a {
     list-style: none;
-    color: var(--color-text);
+    color: var(--main-text-color);
     background-color: var(--content-bg-color);
-    /* font-family: heyAugust, "Lucida Handwriting"; */
     letter-spacing: 3px;
     text-align: center;
     text-transform: uppercase;
@@ -156,9 +160,12 @@ h3 {
 
 /* Portfolio item card headers */
 h4 {
-    padding: 10px 0 0 5px;
-    text-decoration: none;
     font-weight: bold;
+    padding: 10px 0 0 5px;
+}
+
+a + h4 {
+    text-decoration: none;
     color: var(--main-text-color);
 }
 
@@ -249,67 +256,16 @@ footer {
     filter: blur(5px)
 }
 
-#star1 {
-    top: -100vh;
-    left: 10vw;
-}
-
-#star2 {
-    height: 30px;
-    width: 30px;
-    top: -80vh;
-    left: 70vw;
-}
-
-#star3 {
-    top: -50vh;
-    left: 20vw;
-}
-
-#star4 {
-    height: 15px;
-    width: 15px;
-    top: -40vh;
-    left: 15vw;
-}
-
-#star5 {
-    height: 40px;
-    width: 40px;
-    top: -25vh;
-    left: 90vw;
-}
-
-#star6 {
-    top: -5vh;
-    left: 10vw;
-}
-
-#star7 {
-    height: 20px;
-    width: 20px;
-    top: -0vh;
-    left: 25vw;
-}
-
-#star8 {
-    height: 15px;
-    width: 15px;
-    top: 10vh;
-    left: 85vw;
-}
-
-#star9 {
-    top: 20vh;
-    left: 70vw;
-}
-
-#star10 {
-    height: 30px;
-    width: 30px;
-    top: 27vh;
-    left: 82vw;
-}
+#star1 {top: -100vh; left: 10vw;}
+#star2 {height: 30px; width: 30px; top: -80vh; left: 70vw;}
+#star3 {top: -50vh; left: 20vw;}
+#star4 {height: 15px; width: 15px; top: -40vh; left: 15vw;}
+#star5 {height: 40px; width: 40px; top: -25vh; left: 90vw;}
+#star6 {top: -5vh; left: 10vw;} 
+#star7 {height: 20px; width: 20px; top: -0vh; left: 25vw;}
+#star8 {height: 15px; width: 15px; top: 10vh; left: 85vw;}
+#star9 {top: 20vh; left: 70vw;}
+#star10 {height: 30px; width: 30px; top: 27vh; left: 82vw;}
 
 /* Content scaling for narrower screens */
 @media screen and (max-width: 1600px) {    
