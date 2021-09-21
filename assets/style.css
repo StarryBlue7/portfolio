@@ -46,7 +46,7 @@ nav ul a {
     list-style: none;
     color: var(--color-text);
     background-color: var(--content-bg-color);
-    font-family: heyAugust, "Lucida Handwriting";
+    /* font-family: heyAugust, "Lucida Handwriting"; */
     letter-spacing: 3px;
     text-align: center;
     text-transform: uppercase;
@@ -194,7 +194,7 @@ summary:last-child {
 #contact-box {
     display: flex;
     justify-content: center;
-    margin-bottom: 300px;
+    margin-bottom: 400px;
 }
 
 .social-link {
@@ -212,7 +212,6 @@ footer {
     text-align: center;
     font-size: 80%;
     bottom: 0;
-    margin: 50px;
     align-self: center;
 }
 
@@ -307,7 +306,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 656px) {    
+@media screen and (max-width: 755px) {    
     nav ul a {
         width: 35vw;
     }
