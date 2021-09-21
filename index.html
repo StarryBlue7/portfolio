@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/reset.css">
     <link rel="stylesheet" href="./assets/style.css">
-    <script type="text/javascript" src="./assets/javascript.js"></script>
-    <title>Vince Lee | Full Stack Developer</title>
+    <link rel="icon" href="./assets/images/star-icon.png" type="image/x-icon">
+    <title>Vince Lee | Full Stack Web Developer</title>
 </head>
 
 <body>
@@ -31,43 +31,69 @@
             </div>
         </div>
 
-        <section class="midground column fade fadeIn">
-            <img alt="Photo of Vince Lee" class="profile-img" src="assets/images/profile.png" />
+        <section id="profile" class="midground column">
+            <img alt="Vince Lee" class="profile-img" src="assets/images/profile.png" />
             <h1>Vince Lee</h1> 
+            <h3>Full Stack Web Developer</h3>
         </section>
 
-        <section class="foreground column">
-            <span class="star star1"></span>
-            <span class="star star2"></span>
-            <span class="star star3"></span>
-            <span class="star star4"></span>
-            <span class="star star5"></span>
-            <span class="star star6"></span>
-            <span class="star star7"></span>
-            <span class="star star8"></span>
-            <span class="star star9"></span>
-            <span class="star star10"></span>
+        <section aria-hidden="true" class="foreground column stars">
+            <span class="star" id="star1"></span>
+            <span class="star" id="star2"></span>
+            <span class="star" id="star3"></span>
+            <span class="star" id="star4"></span>
+            <span class="star" id="star5"></span>
+            <span class="star" id="star6"></span>
+            <span class="star" id="star7"></span>
+            <span class="star" id="star8"></span>
+            <span class="star" id="star9"></span>
+            <span class="star" id="star10"></span>
         </section>
         
-        <section id="about" class="midground column content fade fadeOut">
-            <p>Text Text Text Text Text Text Text Text </p>
-            <p>Text Text Text Text Text Text Text Text </p>
-            <p>Text Text Text Text Text Text Text Text </p>
-            <p>Text Text Text Text Text Text Text Text </p>
-            <p>Text Text Text Text Text Text Text Text </p>
-            <p>Text Text Text Text Text Text Text Text </p>
+        <section id="about" class="midground column content">
+            <h2>About Me</h2>
+            <p>
+                Having grown up in a household of web developers, web design has always been a part of my life, if only at times as side projects here and there.
+                Even while pursuing a degree in chemistry, I was additionally trained in graphic design, Python, and computational chemistry. 
+            </p>
+            <p>
+                Of course, as luck would have it, I would end up working at a web-based cloud biotech company, Emerald Cloud Labs, where once again development skills were at the forefront.
+            </p>
+            <p>
+                And why fight the inevitable? I'm now pursing a career in web and software development.
+            </p>
         </section>
         
         <section id="portfolio" class="midground column content">
-            <p>Text Text Text Text Text Text Text Text </p>
-            <p>Text Text Text Text Text Text Text Text </p>
-            <p>Text Text Text Text Text Text Text Text </p>
-            <p>Text Text Text Text Text Text Text Text </p>
-            <p>Text Text Text Text Text Text Text Text </p>
-            <p>Text Text Text Text Text Text Text Text </p>
+            <h2>Portfolio</h2>
+            <section class="projects row-reverse">
+
+                <summary>
+                    <a target=_blank href="https://p1.pxfuel.com/preview/755/968/976/giraffe-baby-giraffe-zoo-baby.jpg">
+                        <h4>Oldest Project</h4>
+                        <img class="screenshot" alt="Accessibility code refactorization page" src="https://p1.pxfuel.com/preview/755/968/976/giraffe-baby-giraffe-zoo-baby.jpg" />
+                    </a>
+                </summary>
+
+                <summary>
+                    <a id="short-img" target=_blank href="https://i.redd.it/pdtc93vlpaw61.jpg">
+                        <h4>Older Project</h4>
+                        <img class="screenshot" alt="Accessibility code refactorization page" src="https://i.redd.it/pdtc93vlpaw61.jpg" />
+                    </a>
+                </summary>
+
+                <summary>
+                    <a target=_blank href="https://starryblue7.github.io/accessibility-code-refactor/">
+                        <h4>Accessibility Code Refactorization</h4>
+                        <img class="screenshot" alt="Accessibility code refactorization page" src="./assets/images/accessibility-code-refactor-site.PNG" />
+                    </a>
+                </summary>
+                
+            </section>
         </section>
         
         <section id="resume" class="midground column content">
+            <h2>Résumé + CV</h2>
             <p>Text Text Text Text Text Text Text Text </p>
             <p>Text Text Text Text Text Text Text Text </p>
             <p>Text Text Text Text Text Text Text Text </p>
@@ -77,6 +103,7 @@
         </section>
         
         <section id="contact" class="midground column content">
+            <h2>Contact Me</h2>
             <p>Text Text Text Text Text Text Text Text </p>
             <p>Text Text Text Text Text Text Text Text </p>
             <p>Text Text Text Text Text Text Text Text </p>
@@ -85,10 +112,13 @@
             <p>Text Text Text Text Text Text Text Text </p>
         </section>
 
+        <footer>
+
+        </footer>
+
     </main>
     
-    
-    
+    <script type="text/javascript" src="./assets/javascript.js"></script>
 </body>
 
 </html>
