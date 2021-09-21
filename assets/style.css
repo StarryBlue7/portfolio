@@ -47,7 +47,6 @@ nav ul a {
     text-transform: uppercase;
     display: block;
     padding: 20px;
-    /* border-radius: 0 0 20px 20px; */
 }
 
 .flex-parallax {
@@ -80,7 +79,7 @@ nav ul a {
 
 .background-box {
     overflow: hidden;
-    height: 3500px;
+    height: 4000px;
 }
 
 .midground {
@@ -179,6 +178,13 @@ summary {
 summary:last-child {
     /* width: 100%; */
     flex: 1 1 100%;
+}
+
+footer {
+    text-align: center;
+    font-size: 80%;
+    width: 100%;
+    bottom: 0;
 }
 
 .foreground {
@@ -286,12 +292,17 @@ summary:last-child {
         width: 200px;
     }
     
-    h1 {
-        font-size: 230%;
+    html, body {
+        font-size: 12px;
+    }
+
+    nav ul a {
+        padding: 10px 5px;
+        font-size: 140%;
     }
 
     p {
-        font-size: 70%;
+        font-size: 140%;
     }
     :root {
         --content-width: 90vw;
